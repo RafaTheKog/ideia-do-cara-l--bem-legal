@@ -1,0 +1,660 @@
+fileFormatVersion: 2
+guid: 6f512a55d8a22ff4aaf3f54d4ef9f9ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2745301954434389349
+    second: slime_roxo_certo_0
+  - first:
+      213: 1852184429800414677
+    second: slime_roxo_certo_1
+  - first:
+      213: -4203395102200136413
+    second: slime_roxo_certo_2
+  - first:
+      213: -671159500276065029
+    second: slime_roxo_certo_3
+  - first:
+      213: -2694653612396785470
+    second: slime_roxo_certo_4
+  - first:
+      213: -5976640724424590411
+    second: slime_roxo_certo_5
+  - first:
+      213: -4677135756302058943
+    second: slime_roxo_certo_6
+  - first:
+      213: -4060738053634718622
+    second: slime_roxo_certo_7
+  - first:
+      213: -7181258554180419045
+    second: slime_roxo_certo_8
+  - first:
+      213: -1534775760752234637
+    second: slime_roxo_certo_9
+  - first:
+      213: 8310251886912767369
+    second: slime_roxo_certo_10
+  - first:
+      213: -3632460832782562932
+    second: slime_roxo_certo_11
+  - first:
+      213: 836877034256405613
+    second: slime_roxo_certo_12
+  - first:
+      213: -1941059458346379766
+    second: slime_roxo_certo_13
+  - first:
+      213: -4504295716806172201
+    second: slime_roxo_certo_14
+  - first:
+      213: -77320773123482545
+    second: slime_roxo_certo_15
+  - first:
+      213: -9029810581253490031
+    second: slime_roxo_certo_16
+  - first:
+      213: 4301609841101292973
+    second: slime_roxo_certo_17
+  - first:
+      213: -6976789138237514351
+    second: slime_roxo_certo_18
+  - first:
+      213: -6125744837954559129
+    second: slime_roxo_certo_19
+  - first:
+      213: -74282120688304621
+    second: slime_roxo_certo_20
+  - first:
+      213: -3306525222558057850
+    second: slime_roxo_certo_21
+  - first:
+      213: 501656189609354012
+    second: slime_roxo_certo_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 56
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slime_roxo_certo_0
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 4317
+        width: 382
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9aa0ccea6ab6e9d0800000000000000
+      internalID: -2745301954434389349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_1
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 4317
+        width: 382
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd53c4fce744b910800000000000000
+      internalID: 1852184429800414677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_2
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 4317
+        width: 382
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d7eb2dc6a8aa5c0800000000000000
+      internalID: -4203395102200136413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_3
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 3021
+        width: 438
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc9a6e8dff8fa6f0800000000000000
+      internalID: -671159500276065029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_4
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 3021
+        width: 438
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0dd5001daaa9ad0800000000000000
+      internalID: -2694653612396785470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_5
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 3021
+        width: 491
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbf98e3de4be0da0800000000000000
+      internalID: -5976640724424590411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_6
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2077
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a76576fc9771fb0800000000000000
+      internalID: -4677135756302058943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_7
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 2049
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2640133414c55a7c0800000000000000
+      internalID: -4060738053634718622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_8
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1725
+        width: 519
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1247d5946b075c90800000000000000
+      internalID: -7181258554180419045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_9
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 2021
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fab72c39163bae0800000000000000
+      internalID: -1534775760752234637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_10
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 1725
+        width: 466
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9858471cf02f35370800000000000000
+      internalID: 8310251886912767369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_11
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 2021
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89c9714e18e69dc0800000000000000
+      internalID: -3632460832782562932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_12
+      rect:
+        serializedVersion: 2
+        x: 2183
+        y: 1887
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64198b8a3f2d9b00800000000000000
+      internalID: 836877034256405613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_13
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 1725
+        width: 438
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a061a51f4b8ff05e0800000000000000
+      internalID: -1941059458346379766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_14
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 1887
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1647c09e68d71c0800000000000000
+      internalID: -4504295716806172201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_15
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1806
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c5730aa2d4deef0800000000000000
+      internalID: -77320773123482545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_16
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 1725
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a725b4e1bafa280800000000000000
+      internalID: -9029810581253490031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_17
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 429
+        width: 438
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5ca2d0c5362bb30800000000000000
+      internalID: 4301609841101292973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_18
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 591
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d9c8e4e377d2f90800000000000000
+      internalID: -6976789138237514351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_19
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 429
+        width: 438
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7632905868bfcfaa0800000000000000
+      internalID: -6125744837954559129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_20
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 591
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ef5370ec818fef0800000000000000
+      internalID: -74282120688304621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_21
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 429
+        width: 438
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68abe8c24dcdc12d0800000000000000
+      internalID: -3306525222558057850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_roxo_certo_22
+      rect:
+        serializedVersion: 2
+        x: 3669
+        y: 591
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13aa0585ad36f600800000000000000
+      internalID: 501656189609354012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
