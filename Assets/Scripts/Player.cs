@@ -11,11 +11,13 @@ public class Player : MonoBehaviour
     Vector2 moveInput;
     SpriteRenderer sprite;
     Animator anim;
+    Life life;
 
     void Start()
     {
         anim = GetComponentInChildren<Animator>();
         sprite = GetComponent<SpriteRenderer>();
+        life = GetComponent<Life>();
     }
 
     void Update()
@@ -33,5 +35,14 @@ public class Player : MonoBehaviour
         sprite.flipX = (mousePos.x < screenPoint.x);
         
         anim?.SetBool("isMoving", (Mathf.Abs(moveInput.x) > 0 || Mathf.Abs(moveInput.y) > 0));        
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Bullet")
+        {
+            var bullet = other.GetComponent<EnemyBullet>();
+            if (bullet != null) life.Damage( bullet.bulletDamage );
+        }
     }
 }
