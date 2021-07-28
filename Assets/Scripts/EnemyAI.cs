@@ -15,38 +15,54 @@ public class EnemyAI : MonoBehaviour
 
     [Header("References")]
     public GameObject slimeBullet;
+
     private Transform player;
+    private Life life;
     
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         anim = GetComponent<Animator>();
+        life = GetComponent<Life>();
     }
 
     void Update()
     {
-        if(Vector2.Distance(transform.position, player.position) < nearDistance)
+        if(PlayerDistance() < nearDistance)
         {
             transform.position = Vector2.MoveTowards(transform.position, player.position, -speed * Time.deltaTime);
         }
-        else if(Vector2.Distance(transform.position, player.position) > stoppingDistance)
+        else if(PlayerDistance() > stoppingDistance)
         {
             transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
         }
-        else if(Vector2.Distance(transform.position, player.position) < stoppingDistance && Vector2.Distance(transform.position, player.position) > nearDistance)
+        else if(PlayerDistance() < stoppingDistance && PlayerDistance() > nearDistance)
         {
             transform.position = this.transform.position;
         }
-
 
         if(timeBtwShoots <= 0)
         {
             Instantiate(slimeBullet, transform.position, Quaternion.identity);
             timeBtwShoots = startTimeBtwShoots;
         }
-        else
+        else timeBtwShoots -= Time.deltaTime;
+    }
+
+    private float PlayerDistance()
+    {
+        return Vector2.Distance(transform.position, player.position);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Bullet")
         {
-            timeBtwShoots -= Time.deltaTime;
+            var bullet = other.GetComponent<Bullet>();
+            if (bullet != null) life.Damage( bullet.bulletDamage );
+            else return;
+
+            Destroy(other.gameObject);
         }
     }
 }

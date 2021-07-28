@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 5085369346253216850}
   - component: {fileID: 5085369346253216851}
   - component: {fileID: 5747550806148454262}
+  - component: {fileID: 6649501942968056378}
   m_Layer: 0
-  m_Name: Balita
+  m_Name: Bullet
   m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96,7 +97,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26f2a853b8cb9aa489bcc60124c063c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletDamage: 10
   speed: 12
+  destroyTime: 2
 --- !u!61 &5747550806148454262
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -123,3 +126,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 8.74367, y: 1.3695347}
   m_EdgeRadius: 0
+--- !u!50 &6649501942968056378
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5085369346253216848}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
