@@ -64,5 +64,14 @@ public class EnemyAI : MonoBehaviour
 
             Destroy(other.gameObject);
         }
+        else if (other.tag == "Melle")
+        {
+            var melee = other.GetComponent<WeaponMelee>();
+            
+            if (melee != null) 
+            {
+                life.Damage( melee.damage );
+            }
+        }
     }
 }
